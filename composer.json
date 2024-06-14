@@ -13,9 +13,9 @@
 	"require": {
 		"php": ">=5.3.7",
 		"jenssegers/blade": "~1.4",
-		"vlucas/phpdotenv": "*",
-		"lulco/phoenix": "*",
-		"illuminate/database": "^8.83"
+		"vlucas/phpdotenv": "~5.6",
+		"illuminate/database": "^8.83",
+		"lulco/phoenix": "*"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"

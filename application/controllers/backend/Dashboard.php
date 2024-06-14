@@ -8,6 +8,7 @@ class Dashboard extends MY_Controller
 		view('backend/Dashboard/index');
 	}
 	public function table(){
-		view('backend/Dashboard/table');
+		$user = \Orm\User::all();
+		view('backend/Dashboard/table', ['user'=> $user]);
 	}
 }

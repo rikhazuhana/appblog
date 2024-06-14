@@ -275,12 +275,19 @@
                                 </a>
                             </li>
                             <li class="nav-item">
+                             <a class="nav-link d-flex align-items-center gap-2" href="{{ site_url ('backend/user/profile')}}">
+                             <i class="bi bi-person-circle"></i>
+                            Update Profile
+                             </a>
+                             </li>
+                            <li class="nav-item">
                              <a class="nav-link d-flex align-items-center gap-2" href="{{ site_url ('logout')}}">
                             <svg class="bi"><use xlink:href="#door-closed"/></svg>
                         Sign out
                           </a>
                          </li>
                         </ul>
+                     </li>
                     </div>
                 </div>
             </div>

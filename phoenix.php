@@ -1,11 +1,11 @@
 <?php
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ );
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 return [
     'migration_dirs' => [
-       // 'first' => __DIR__ . '/../first_dir',
+        //'first' => __DIR__ . '/../first_dir',
         //'second' => __DIR__ . '/../second_dir',
         'main' => __DIR__ . '/migrations',
     ],
